@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/Main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/greyColor_dark" >
+
+        <ScrollView
+            android:id="@+id/scrollViewForMainMenuDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" >
+
+            <RelativeLayout
+                android:id="@+id/MainScroll_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@color/greyColor_dark" >
+
+                <TextView
+                    android:id="@+id/a_la_un"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/blackColor"
+                    android:layout_marginTop="24dp"
+                    android:padding="10dp"
+                    android:text="A la une" />
+
+                <TextView
+                    android:id="@+id/fil_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/a_la_un"
+                    android:background="@color/blackColor"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Fil info" />
+
+                <TextView
+                    android:id="@+id/c_jaz_lyn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fil_info"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="C Jazz a Lyon" />
+
+                <TextView
+                    android:id="@+id/politique"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/c_jaz_lyn"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Politique" />
+
+                <TextView
+                    android:id="@+id/societe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/politique"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Societe" />
+
+                <TextView
+                    android:id="@+id/social"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/societe"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Social" />
+
+                <TextView
+                    android:id="@+id/education"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/social"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Education" />
+
+                <TextView
+                    android:id="@+id/sante"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/education"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Sante" />
+
+                <TextView
+                    android:id="@+id/environnement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sante"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Environnement" />
+
+                <TextView
+                    android:id="@+id/culture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/environnement"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Culture" />
+
+                <TextView
+                    android:id="@+id/hightech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/culture"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="High-Tech" />
+
+                <TextView
+                    android:id="@+id/judiciare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hightech"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Judiciare" />
+
+                <TextView
+                    android:id="@+id/faitsdiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/judiciare"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Faits divers" />
+
+                <TextView
+                    android:id="@+id/sports"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/faitsdiver"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Sports" />
+
+                <TextView
+                    android:id="@+id/olendirect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sports"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="OL en direct" />
+
+                <TextView
+                    android:id="@+id/asvel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/olendirect"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="ASVEL" />
+
+                <TextView
+                    android:id="@+id/louendirect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/asvel"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="LOU en direct" />
+
+                <TextView
+                    android:id="@+id/economy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/louendirect"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Economie" />
+
+                <TextView
+                    android:id="@+id/people"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/economy"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="People" />
+
+                <TextView
+                    android:id="@+id/etausilyon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/people"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Et aussi a lyon" />
+
+                
+                <TextView
+                    android:id="@+id/meteo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/etausilyon"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Meteo" />
+                <TextView
+                    android:id="@+id/edito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blackColor"
+                    android:layout_below="@+id/meteo"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Edito" />
+                <TextView
+                    android:id="@+id/contributions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blackColor"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/edito"
+                    android:padding="10dp"
+                    android:text="Contributions" />
+                <TextView
+                    android:id="@+id/ecouter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contributions"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/blackColor"
+                    android:padding="10dp"
+                    android:text="Ecouter/voir" />
+                <TextView
+                    android:id="@+id/form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ecouter"
+                    android:background="@color/blackColor"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Forum" />
+                <TextView
+                    android:id="@+id/sondage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blackColor"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/form"
+                    android:padding="10dp"
+                    android:text="Sondage" />
+                <TextView
+                    android:id="@+id/cinema"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sondage"
+                    android:background="@color/blackColor"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Cinema" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

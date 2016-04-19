@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/grey"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/dashimage_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dash_image_1" />
+
+            <Button
+                android:id="@+id/politiqbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/dashimage_1"
+                android:layout_alignParentLeft="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="23dp"
+                android:paddingRight="23dp"
+                android:background="@color/redColor"
+                android:layout_marginBottom="15dp"
+                android:text="POLITIQUE" />
+
+            <TextView
+                android:id="@+id/txtheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dashimage_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:maxLines="2"
+                android:textColor="@color/blackColor"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/txtdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtheader"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/greyColor_editText_focused"
+                android:padding="5dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/videoimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/dashimage_1"
+                android:layout_alignParentRight="true"
+                android:background="@color/blackColor"
+                android:padding="12dp"
+                android:src="@drawable/search_movie" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

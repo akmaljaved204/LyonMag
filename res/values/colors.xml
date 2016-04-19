@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="backgroundColor">#EFEFEF</color>
+    <color name="categoryBackgroundColor">#D9D9D9</color>
+    
+    <color name="whiteColor">#FFF</color>
+    <color name="blackColor">#000</color>
+    
+    <color name="trasparentImage">#99FFFFFF</color>
+    <!-- <color name="violetColor">#140838</color> -->
+    <color name="violetColor">#2B214C</color>
+    <color name="purpleColor">#452F91</color>
+    
+    <color name="redColor">#CC0001</color>
+    <color name="bluecolorforheader">#00368c</color>
+    
+    <color name="bluecolorforheaderalpha">#9900368c</color>
+    
+    <color name="menucolor">#292929</color>
+    
+     <color name="searcgbgcolor">#525252</color>
+    <!--  Home Page Screen  -->
+    <color name="greyColor_editText_focused">#D9D9D9</color>
+    
+     <color name="headecolor">#f6f5f5</color>
+     <color name="headecolorTransperent">#99f6f5f5</color>
+      <color name="txtcolorheadline">#12bbd8</color>
+      <color name="redColorOnSharing">#d5011a</color>
+      <color name="blackColorSharing">#282828</color>
+      <color name="colorforlineonsharing">#d4d4d4</color>
+      
+      <color name="colorloadmorelist">#f6f4f5</color>
+      <!-- <color name="bgForSharingLayout">#12bbd8</color> -->
+      <color name="bgForSharingLayout">#d5011a</color>
+    <!--  Login Screen-->
+    <!--  Forgot Password and Create Account Text color-->
+    <color name="greyColor">#646464</color>
+    <color name="greyColor_dark">#191919</color>
+    
+    <color name="greyColor_kakapay_chat">#4A7023</color>
+    <color name="grey">#ebeff0</color>
+    
+</resources>

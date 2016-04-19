@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/whiteColor" >
+
+        <TextView
+            android:id="@+id/AlertHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="Alerter LYONMAG"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/redColor" />
+        
+        <ScrollView
+            android:id="@+id/scrollViewForAlertTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/AlertHeading"
+            android:layout_alignParentLeft="true"
+             >
+
+        <RelativeLayout
+            android:id="@+id/MailMain_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AlertHeading"
+            android:layout_centerHorizontal="true"
+            android:background="@color/greyColor_editText_focused" >
+
+            <RelativeLayout
+                android:id="@+id/Mail_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <EditText
+                    android:id="@+id/mailtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="votre adress mail" >
+                </EditText>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mailtxt"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:hint="votre texte"
+                    android:gravity="top"
+                    android:lines="5"
+                    android:singleLine="false" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/Buttons_Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Mail_layout"
+                android:paddingBottom="10dp"
+                android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/cameraimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/envoyerbutton"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/alert_camera_icon" />
+
+            <ImageView
+                android:id="@+id/recorderimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/envoyerbutton"
+                android:layout_toRightOf="@+id/cameraimage"
+                android:src="@drawable/alert_mic_icon" />
+
+            <ImageView
+                android:id="@+id/videoimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/envoyerbutton"
+                android:layout_toRightOf="@+id/recorderimage"
+                android:src="@drawable/alert_video_icon" />
+
+            <Button
+                android:id="@+id/envoyerbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:background="@color/redColor"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:text="ENVOYER"
+                android:textColor="@color/whiteColor" />
+
+</RelativeLayout>
+        </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>
